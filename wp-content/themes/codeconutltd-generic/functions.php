@@ -30,9 +30,9 @@ define( 'CODECONUTLTD__THEME_PARENT_KEY', 'codeconutltd' );
 
 // -------------------------------------------------------------------------------------------------------------------------------- Includes
 
-require_once 'init.php';
+require_once 'init/all.php';
 
 // phpcs:ignore WordPress.Security.NonceVerification
 if ( CODECONUTLTD__ENV_DEVELOPMENT && isset( $_GET[ CODECONUTLTD__URL_PARAM_DEV ] ) ) {
-	require_once 'init-dev.php';
+	require_once 'init/dev.php';
 }

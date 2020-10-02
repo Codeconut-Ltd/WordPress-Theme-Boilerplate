@@ -1,6 +1,6 @@
 <?php
 /**
- * Development and debugging enhancements.
+ * General theme definition.
  *
  * TOC
  * - Includes
