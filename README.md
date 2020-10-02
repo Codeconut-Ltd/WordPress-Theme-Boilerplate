@@ -25,8 +25,9 @@ Generic and theme-independent child theme. It's a development-focused boilerplat
 
 ## Features
 
-- Load child theme CSS styles.
+- Load child theme CSS styles
 - Support loading debugging code for DEV environments (placeholder)
+- Clean and modern OOP style
 
 <br><br>
 
@@ -38,7 +39,7 @@ Copy the folder content in your WordPress installation.
 
 1. Set parent theme name and replace 'XXX' placeholders:
    - `/wp-content/themes/codeconutltd-generic/style.css`
-2. Adjust the constant definitions for development mode as needed:
+2. Adjust the constant definitions as needed:
    - `/wp-content/themes/codeconutltd-generic/functions.php`
-3. Custom development-mode solutions can be implemented here:
+3. Optional: Implement custom development-mode solution (e.g. debugging tools):
    - `/wp-content/themes/codeconutltd-generic/init-dev.php`
