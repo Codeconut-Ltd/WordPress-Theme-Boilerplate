@@ -6,7 +6,7 @@
  * - Includes
  * - Init
  *
- * @package CodeconutLtd_Theme__Generic
+ * @package Codeconut_Theme__Generic
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -17,9 +17,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once 'app/styles-scripts.php';
 
-use CodeconutLtd_Theme_App\StylesScripts;
+use Codeconut_Theme_App\StylesScripts;
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------ Init
 
-new StylesScripts( CODECONUTLTD__THEME_PARENT_KEY );
+new StylesScripts( CODECONUT__THEME_PARENT_KEY );

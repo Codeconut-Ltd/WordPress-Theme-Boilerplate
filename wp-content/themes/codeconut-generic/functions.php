@@ -6,7 +6,7 @@
  * - Config
  * - Includes
  *
- * @package CodeconutLtd_Theme__Generic
+ * @package Codeconut_Theme__Generic
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -20,12 +20,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 // It can be defined for the whole application in 'index.php'.
 
 // Must be defined globally in 'wp-config.php'.
-if ( ! defined( 'CODECONUTLTD__ENV_DEVELOPMENT' ) ) {
-	define( 'CODECONUTLTD__ENV_DEVELOPMENT', false );
+if ( ! defined( 'CODECONUT__ENV_DEVELOPMENT' ) ) {
+	define( 'CODECONUT__ENV_DEVELOPMENT', false );
 }
 
-define( 'CODECONUTLTD__URL_PARAM_DEV', 'dev' );
-define( 'CODECONUTLTD__THEME_PARENT_KEY', 'codeconutltd' );
+define( 'CODECONUT__URL_PARAM_DEV', 'dev' );
+define( 'CODECONUT__THEME_PARENT_KEY', 'codeconut' );
 
 
 // -------------------------------------------------------------------------------------------------------------------------------- Includes
@@ -33,6 +33,6 @@ define( 'CODECONUTLTD__THEME_PARENT_KEY', 'codeconutltd' );
 require_once 'init/all.php';
 
 // phpcs:ignore WordPress.Security.NonceVerification
-if ( CODECONUTLTD__ENV_DEVELOPMENT && isset( $_GET[ CODECONUTLTD__URL_PARAM_DEV ] ) ) {
+if ( CODECONUT__ENV_DEVELOPMENT && isset( $_GET[ CODECONUT__URL_PARAM_DEV ] ) ) {
 	require_once 'init/dev.php';
 }

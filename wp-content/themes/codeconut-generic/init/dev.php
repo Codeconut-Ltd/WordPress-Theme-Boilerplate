@@ -2,7 +2,7 @@
 /**
  * Development and debugging enhancements.
  *
- * @package CodeconutLtd_Theme__Generic
+ * @package Codeconut_Theme__Generic
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

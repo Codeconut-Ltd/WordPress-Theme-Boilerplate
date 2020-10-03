@@ -2,10 +2,10 @@
 /**
  * Theme specific styles and scripts.
  *
- * @package CodeconutLtd_Theme__Generic
+ * @package Codeconut_Theme__Generic
  */
 
-namespace CodeconutLtd_Theme_App;
+namespace Codeconut_Theme_App;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -27,7 +27,7 @@ final class StylesScripts {
 	 *
 	 * @var string
 	 */
-	private $child_theme_key = 'codeconutltd';
+	private $child_theme_key = 'codeconut';
 
 	/**
 	 * Constructor.

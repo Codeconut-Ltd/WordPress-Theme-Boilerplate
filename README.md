@@ -38,8 +38,8 @@ Copy the folder content in your WordPress installation.
 ### Config
 
 1. Set parent theme name and replace 'XXX' placeholders:
-   - `/wp-content/themes/codeconutltd-generic/style.css`
+   - `/wp-content/themes/codeconut-generic/style.css`
 2. Adjust the constant definitions as needed:
-   - `/wp-content/themes/codeconutltd-generic/functions.php`
+   - `/wp-content/themes/codeconut-generic/functions.php`
 3. Optional: Implement custom development-mode solution (e.g. debugging tools):
-   - `/wp-content/themes/codeconutltd-generic/init-dev.php`
+   - `/wp-content/themes/codeconut-generic/init-dev.php`
