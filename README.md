@@ -1,6 +1,6 @@
 ![WordPress Theme Boilerplate](teaser.png)
 
-# WordPress Theme
+# WordPress Theme Boilerplate
 
 - [About](#about)
 - [Features](#features)
